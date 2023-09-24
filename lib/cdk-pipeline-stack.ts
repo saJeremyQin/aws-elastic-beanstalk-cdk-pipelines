@@ -19,7 +19,7 @@ export class CdkPipelineStack extends Stack {
          input: CodePipelineSource.gitHub('saJeremyQin/aws-elastic-beanstalk-cdk-pipelines', 'main'),
          
          // Install dependencies, build and run cdk synth
-         installCommands: ['npm i -g npm@latest'],
+        //  installCommands: ['npm i -g npm@latest'],
          commands: [
            'npm ci',
            'npm run build',
