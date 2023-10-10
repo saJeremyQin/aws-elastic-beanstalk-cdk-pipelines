@@ -37,6 +37,7 @@ export class CdkPipelineStack extends Stack {
         minSize : "1",
         maxSize : "2"
     });
+    // all good 
     const deployStage = pipeline.addStage(deploy); 
   }
 }
